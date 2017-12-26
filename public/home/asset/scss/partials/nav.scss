@@ -1,0 +1,117 @@
+.nav-warp{
+  border-bottom: 1px solid #dddddd;
+}
+.logo{
+  margin-top: 10px;
+  width: 20%;
+  a{
+    img{
+      height: 55px;
+    }
+  }
+}
+
+.nav-list-box{
+  width: 60%;
+  & > ul {
+    .active > a{
+      border-bottom: 3px solid $main-href-active-color;
+    }
+    & > li{
+      height: 75px;
+      line-height: 75px;
+      & > a{
+        height: 61px;
+        line-height: 75px;
+        color: $main-font-color;
+        font-size: 20px;
+        display: inline-block;
+        &:hover{
+          color: $main-href-active-color;
+          text-decoration: none;
+        }
+        &:link{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.triangle-down{
+  width: 10px;
+  height: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid $main-href-active-color;
+  position: relative;
+  top: 18px;
+  left: 7px;
+}
+
+.triangle-up {
+  width: 10px;
+  height: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid $main-href-active-color;
+  position: relative;
+  top: -18px;
+  left: 7px;
+}
+
+.house-filtrate{
+  display: none;
+  width: 1903px;
+  position: absolute;
+  background-color: white;
+  left: -718px;
+  top: 76px;
+  a{
+    font-size: 14px !important;
+  }
+}
+
+.house-filtrate-box{
+  padding:20px 0px;
+  .house-filtrate-box-item:last-child{
+    border-right: 0px;
+  }
+  a{
+    color: #444;
+  }
+}
+
+.house-filtrate-box-item{
+  height: 136px;
+  border-right: 1px dashed #666;
+}
+.house-filtrate-tit{
+  padding-left:5px;
+  a{
+    text-decoration: none;
+  }
+  i{
+    color: $main-href-color;
+  }
+}
+
+.house-filtrate-des{
+  & > ul {
+    line-height: 30px;
+    & > li{
+      a:hover{
+        color: $main-href-color;
+      }
+    }
+  }
+}
+
+.triangle-facing-right {
+  display: inline-block;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+}

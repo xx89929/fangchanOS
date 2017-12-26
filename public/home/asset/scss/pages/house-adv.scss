@@ -1,0 +1,82 @@
+.house-adv-nav-box{
+  width: 100%;
+  padding-top:30px;
+}
+.house-adv-nav-ul{
+  & > ul > li {
+    a{
+      color: inherit;
+      &:hover{
+        color: $main-href-color;
+      }
+    }
+  }
+  .active{
+    padding:5px 20px;
+    background-color: $main-href-color;
+    border-radius: 5px;
+    a{
+      color: white;
+      &:hover{
+        color: white !important;
+      }
+    }
+  }
+}
+
+.house-adv-nav-search{
+  height: 40px;
+  input{
+    border: 1px solid #ddd;
+    padding:10px;
+    height: 32px;
+    font-size: 14px;
+  }
+  button{
+    padding:5px 10px;
+    border: 0px;
+    background-color: $main-href-color;
+    font-size: 16px;
+    color: white;
+  }
+}
+
+.house-adv-list-box{
+  margin-top: 45px;
+  border: 1px solid #ddd;
+  width: 73%;
+}
+
+.house-adv-list-item{
+  padding:10px 20px;
+  border-bottom: 1px dashed #ddd;
+  a{
+    padding:10px 0px;
+    display: inline-block;
+    color: inherit;
+
+  }
+  &:hover,house-adv-list-item-tit>h3{
+    color: $main-href-color;
+    background-color: #f7f7f7;
+  }
+}
+
+.house-adv-list-item-img{
+  img{
+    width: 200px;
+    height: 150px;
+  }
+}
+
+.house-adv-list-item-info{
+  margin-left: 20px;
+  width: 72%;
+  h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  p,span{
+    color: #8e8e8e;
+  }
+}

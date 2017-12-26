@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.old-house-list-box{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.old-house-list-sort{
+  border-bottom: 2px solid $main-href-color;
+  a{
+    font-size: 16px;
+    color: white;
+    background-color: $main-href-color;
+    padding:12px 20px;
+  }
+}
+
+.old-house-list-item{
+  margin-top: 20px;
+  padding:20px 30px;
+  border: 1px solid #dddddd;
+  &:hover{
+    border: 1px solid $main-href-color;
+  }
+}
+
+.old-house-list-item-info{
+  margin-left: 30px;
+}
+
+.old-house-item-tit{
+  a{
+    display: inline-block;
+    color: inherit;
+    h3{
+      margin: 0px;
+    }
+    &:hover{
+      color: $main-href-color;
+    }
+  }
+}
+
+.old-house-item-des{
+  width: 100%;
+  margin-top: 10px;
+  span{
+    color: #999;
+  }
+  & > button{
+    padding:2px 10px;
+    color: $main-href-color;
+    border: 1px solid $main-href-color;
+    background-color: inherit;
+  }
+}
+
+.old-house-item-bottom{
+  margin-top: 20px;
+  & ul > li {
+    position: relative;
+    cursor:pointer;
+  }
+}
+
+.old-house-item-2-code{
+  background-color: white;
+  width: 120px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+  padding:10px;
+  position: absolute;
+  top: -191px;
+  left: -29px;
+  display: none;
+  p{
+    margin: 0px;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.old-house-item-contact-row{
+  margin-top: 10px;
+  width: 100%;
+  span{
+    font-size: 16px;
+  }
+  button{
+    background-color: inherit;
+    border: 1px solid #2aabd2;
+    color: #2aabd2;
+  }
+}
+
+.old-house-item-contact-price{
+  i{
+    font-size: 25px;
+    color: $main-href-color;
+  }
+}
+
+.old-house-apply-button{
+  background-color: inherit;
+  border: 1px solid $main-href-color !important;
+  color: $main-href-color !important;
+}

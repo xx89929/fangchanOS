@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.container{
+  width: 1170px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-fluid{
+  width: 1903px;
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+.list-inline{
+  margin-left: 0px;
+}
+
+section{
+  width: 100%;
+  display: inline-block;
+  //overflow: hidden;
+}
+
+a{
+  cursor: pointer;
+}
+i{
+  font-style: inherit;
+}
+@import "main-color";
+@import "../partials/nav";
+@import "../layout/foot";
+@import "../layout/paging";

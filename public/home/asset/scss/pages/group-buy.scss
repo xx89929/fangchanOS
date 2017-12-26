@@ -1,0 +1,85 @@
+.group-buy-list-left{
+  width: 73%;
+}
+
+.group-buy-list-item{
+  margin-top: 20px;
+  padding: 20px 0px 20px 20px;
+  border: 1px solid #ddd;
+}
+
+.group-buy-list-img{
+  img{
+    width: 375px;
+    height: 260px;
+  }
+}
+
+.group-buy-list-info{
+  margin-left: 20px;
+  width: 437px;
+}
+
+.group-buy-list-tit{
+  a{
+    display: inline-block;
+    color: inherit;
+    h3{
+      margin: 0px;
+    }
+    &:hover{
+      text-decoration: none;
+      color: $main-href-active-color;
+    }
+  }
+
+}
+
+.group-buy-list-des-row{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.group-buy-list-des{
+  em{
+    margin-right: 5px;
+    font-style: normal;
+    color: $main-href-color;
+  }
+  span{
+  }
+  .group-buy-list-des-chunk{
+    display: inline-block;
+    width: 200px;
+  }
+}
+
+.group-buy-list-submit{
+  background-color: #fff9ea;
+  width: 457px;
+  margin-top: 41px;
+  padding:9px 20px;
+}
+
+.group-buy-list-submit-text{
+  font-size:22px;
+  color: $main-href-color;
+}
+
+.group-buy-list-submit-button{
+  font-size: 18px;
+  padding:5px 20px;
+  border: 0px;
+  background-color: $main-button-color;
+  color: white;
+  &:hover{
+    background-color: $main-button-active-color;
+  }
+}
+
+.group-buy-list-time{
+  color: #999;
+}
+.group-buy-list-person{
+  @extend .group-buy-list-time
+}

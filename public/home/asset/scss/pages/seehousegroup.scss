@@ -1,0 +1,163 @@
+.seehouse-list-left{
+  width: 72%;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.seehouse-list-item{
+  padding:10px 20px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.seehouse-list-title{
+  a{
+    h4{
+      display: inline-block;
+    }
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+      color: $main-href-color;
+    }
+  }
+}
+
+.seehouse-list-img{
+  img{
+    width: 270px;
+    height:180px;
+  }
+}
+
+.seehouse-list-info{
+  width: 510px;
+  margin-left: 20px;
+}
+
+.seehouse-list-row{
+  margin-bottom: 15px;
+  width: 100%;
+  span{
+    color: #999;
+  }
+  small{
+    font-size: 14px;
+    color: #636363;
+    margin-left: 10px;
+    span{
+      background-color: $main-href-color;
+      color: white;
+      padding:2px;
+      border-radius: 25px;
+    }
+  }
+}
+
+.seehouse-list-button{
+  margin-top: 40px;
+  width: 100%;
+  button{
+    font-size: 16px;
+    background-color: $main-button-color;
+    color: white;
+    border: 0px;
+    padding:5px 20px;
+    margin-right: 40px;
+    &:hover{
+      background-color: $main-button-active-color;
+    }
+  }
+  span{
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    i{
+      font-size: 16px;
+      color: $main-href-color;
+    }
+  }
+}
+
+.seehouse-border-icon{
+  span{
+    color: $main-href-color;
+    font-size: 20px;
+  }
+}
+
+.seehouse-border{
+  margin-bottom: 15px;
+  span{
+    color: $main-href-color;
+  }
+  &:before{
+    background: #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 200px;
+    height: 2px;
+    margin-top: -6px;
+  }
+  &:after{
+    background: #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 558px;
+    height: 2px;
+    margin-top: -6px;
+  }
+}
+
+.seehouse-list-right{
+  margin-top: 20px;
+  width: 307px;
+}
+
+.seehouse-list-banner-1{
+  padding:20px;
+  border: 1px solid #ddd;
+}
+
+.seehouse-list-banner-1-icon{
+  margin-right: 20px;
+  span{
+    color: $main-href-color;
+    font-size: 64px;
+  }
+}
+
+.seehouse-list-banner-1-des{
+  h5{
+    color: #999;
+  }
+  p{
+    color: $main-href-color;
+    font-size: 24px;
+  }
+}
+
+.seehouse-list-banner-2{
+  margin-top: 20px;
+  padding:20px;
+  border: 1px solid #ddd;
+}
+.seehouse-list-banner-2-titl{
+  h5{
+    color: #999;
+  }
+}
+
+.seehouse-list-banner-2-weixin{
+  img{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.seehouse-list-banner-2-des{
+  width: 131px;
+}

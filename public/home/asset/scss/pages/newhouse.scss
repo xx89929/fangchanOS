@@ -1,0 +1,434 @@
+.breadcrumb{
+  background-color: inherit;
+  padding:10px 0px;
+  margin: 0px;
+}
+
+.new-house-banner-1{
+  margin: 10px 0px;
+}
+
+.filtrate-nav-area{
+  border-bottom: 1px solid #ddd;
+}
+
+.filtrate-nav-tag{
+  ul li {
+    font-size: 14px;
+  }
+  span{
+    font-size: 14px;
+  }
+}
+
+.filtrate-nav-row{
+  height: 39px;
+  width: 100%;
+  padding:10px 0px;
+  & > ul .active{
+    a{
+      color: $main-href-color;
+    }
+  }
+  &:last-child{
+    border-bottom: 1px solid #ddd;
+  }
+  a{
+    color: #333;
+    &:hover{
+      color: $main-href-color;
+      text-decoration: none;
+    }
+  }
+  span{
+    font-weight: bold;
+  }
+}
+
+.nav-house-search{
+  margin:10px 0px;
+  padding:20px 0px;
+  background-color: #f7f7f7;
+}
+
+.nav-house-search-input{
+  width: 40%;
+  input{
+    padding:10px;
+    width: 100%;
+  }
+}
+.nav-house-search-button{
+  button{
+    color: white;
+    font-size: 16px;
+    height: 44px;
+    border: 0px;
+    padding:0px 20px;
+    background-color: $main-href-color;
+  }
+}
+
+.nav-house-search-tag{
+  margin-left: 40px;
+  height: 42px;
+  span{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 42px;
+  }
+  & > ul > li {
+    a{
+      color: inherit;
+      font-size: 14px;
+      line-height: 42px;
+      &:hover{
+        color: $main-href-active-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.new-house-list-left{
+  display: inline-block;
+  width: 73%;
+  & > .active{
+    border: 1px solid $main-href-active-color;
+  }
+}
+.new-house-list-tag{
+  width: 100%;
+  border-bottom: 2px solid $main-href-color;
+  .active{
+    background-color: $main-href-color;
+    color: white !important;
+  }
+  a{
+    color: inherit;
+    font-size: 18px;
+    padding:10px 20px;
+    &:hover{
+      text-decoration: none;
+      color: $main-href-color;
+    }
+  }
+}
+
+
+.new-house-list-item{
+  margin-bottom: 15px;
+  padding:20px 20px 10px;
+  border: 1px solid #eee;
+}
+
+.new-house-list-item-toppar
+
+.new-house-list-item-toppar-img{
+  padding-right: 30px;
+  img{
+    width: 211px;
+    height: 156px;
+  }
+}
+.new-house-list-item-toppar-des{
+  height: 156px;
+  width: 337px;
+}
+.new-house-list-item-toppar-row{
+  margin-top: 10px;
+  width: 100%;
+  span{
+    font-size: 14px;
+  }
+  &:first-child{
+    margin-top: 0px;
+  }
+}
+.new-house-list-toppar-title{
+  a{
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+      color: $main-href-color;
+    }
+  }
+  h3{
+    font-weight: bold;
+    float: left;
+    margin: 0px;
+  }
+  .new-house-list-item-toppar-title-house-status{
+    color: white;
+    border-radius: 3px;
+    background-color: #2aabd2;
+    margin-left: 10px;
+    line-height: 21px;
+    float: left;
+    padding:0px 10px;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+}
+
+.new-house-list-item-toppar-title{
+  color: #999;
+}
+.new-house-list-item-toppar-row-par{
+  float: left;
+  width: 50%;
+}
+.new-house-list-item-toppar-des-phone{
+  font-size: 18px !important;
+  color: $main-href-color;
+}
+
+.new-house-list-item-toppar-contact{
+  height: 156px;
+  width: 234px;
+}
+
+.new-house-list-item-toppar-contact-row{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.new-house-list-item-toppar-contact-price{
+  span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  i{
+    font-weight: bold;
+    color: $main-href-color;
+    font-size: 22px;
+  }
+}
+
+.new-house-list-item-toppar-contact-sales-pic{
+  img{
+    width: 67px;
+    height: 67px;
+  }
+  p{
+    color: #999;
+  }
+}
+
+.new-house-list-item-toppar-contact-sales-info{
+  button{
+    color: $main-href-color;
+    border-radius: 2px;
+    border: 1px solid $main-href-color;
+    background-color: inherit;
+  }
+  span,p{
+    font-size: 18px;
+  }
+  p{
+    font-weight: bold;
+  }
+}
+
+.new-house-list-item-toppar-contact-apply-house-button{
+  padding:5px 10px;
+  font-size: 14px !important;
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  &:hover{
+    background-color: #236588;
+  }
+}
+
+.new-house-list-item-botpar{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.new-house-list-item-botpar-param{
+  margin-bottom: 10px;
+  & > tbody > tr {
+    & > th{
+      text-align: center;
+      border: 0px;
+      background-color: #f8f8f8;
+    }
+    & > td{
+      font-size: 14px;
+      text-align: center;
+      border-top: 0px;
+      border-bottom: 1px dashed #dedede;
+    }
+
+  }
+  button{
+    font-size: 10px;
+    background-color: inherit;
+    border: 1px solid #d8d8d8;
+    margin-right: 5px;
+    color: #999;
+  }
+  i{
+    font-size: 16px;
+    color: $main-href-color;
+  }
+}
+
+.new-house-list-item-botpar-button{
+  a{
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+      color: $main-href-active-color;
+    }
+  }
+}
+
+.new-house-list-right{
+  margin-left: 22px;
+  margin-top: 44px;
+}
+
+
+.new-house-list-right-banner{
+  border: 1px solid #ddd;
+}
+
+.new-house-list-right-banner-des{
+  display: inline-block;
+  width: 100%;
+  padding:0px 20px;
+  & > ul > li{
+    margin: 30px 0px;
+  }
+}
+
+.new-house-list-right-banner-icon{
+  width: 48px;
+  height: 48px;
+  border-radius: 25px;
+  span{
+    font-size: 27px;
+    line-height: 46px;
+    margin-left: 10px;
+    color: white;
+  }
+}
+
+.new-house-list-right-banner1_icon{
+  background-color: $main-href-color;
+}
+.new-house-list-right-banner2_icon{
+  background-color: #2aabd2;
+}
+.new-house-list-right-banner3_icon{
+  background-color: #00a65a;
+}
+
+.new-house-list-right-banner-info{
+  margin-left: 20px;
+  p{
+    margin-bottom: 0px;
+  }
+}
+
+.new-house-list-right-banner-2{
+  margin: 30px 0px;
+  width: 100%;
+  button{
+    box-shadow: 0 0 5px #ddd;
+    font-size: 16px;
+    width: 100%;
+    padding:10px 0px;
+    color: white;
+    border: 1px solid #ddd;
+    background-color: $main-href-color;
+    &:hover{
+      background-color: $main-href-active-color;
+    }
+  }
+}
+
+.new-house-needs-box{
+  border: 1px solid #ddd;
+}
+
+.new-house-needs-title{
+  padding:10px 0px;
+  background-color: #2aabd2;
+  text-align: center;
+  h4{
+    font-size: 16px;
+    color: white;
+  }
+}
+
+.new-house-needs-des{
+  padding:15px;
+
+}
+
+.new-house-needs-des-input{
+  .form-group{
+    margin: 20px 0px;
+    &:first-child{
+      margin: 0px;
+    }
+  }
+  input{
+    border: 1px solid #eee;
+    background-color: #f8f8f8;
+    border-radius: inherit;
+  }
+  button{
+    color: white;
+    border: 0px;
+    background-color: $main-href-color;
+    padding:8px 0px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+.house-page-ranking-box{
+  margin: 20px 0px;
+  width: 100%;
+}
+.house-page-ranking-item{
+  margin-right: 15px;
+  border: 1px solid #dddddd;
+  padding:10px;
+  width: 24%;
+  &:last-child{
+    margin-right: 0px;
+  }
+}
+.house-page-ranking-item-tit{
+  margin-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.house-page-ranking-item-des{
+  & > ul {
+    margin-bottom: 0px;
+    li {
+      line-height: 22px;
+      font-size: 14px;
+      margin-top: 10px;
+      a{
+        color: inherit;
+      }
+      span{
+        i{
+          font-size: 16px;
+          color: $main-href-color;
+        }
+      }
+    }
+  }
+}
+.news-ranking-span{
+  color: #999;
+}

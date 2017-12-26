@@ -1,0 +1,18 @@
+.paging-box{
+  margin: 20px 0px;
+  & > ul {
+    li{
+      border: 1px solid #ddd;
+      padding:5px 20px;
+      a{
+        color: #999;
+      }
+    }
+    .active{
+      background-color: #999;
+      a{
+       color: white;
+      }
+    }
+  }
+}
