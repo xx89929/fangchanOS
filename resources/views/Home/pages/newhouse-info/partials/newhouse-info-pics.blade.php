@@ -12,12 +12,12 @@
     <div class="newhouse-info-pics-box">
         <ul class="list-inline clearfix">
             <li class="col-xs-4">
-                <img class="img-responsive" src="{{url('home/images/new-house-info-pic-1.png')}}">
+                <img class="img-responsive" src="{{url('home/images/group-buy-1.jpg')}}">
                 <span>项目效果图</span>
             </li>
 
             <li class="col-xs-4">
-                <img class="img-responsive" src="{{url('home/images/new-house-info-pic-2.png')}}">
+                <img class="img-responsive" src="{{url('home/images/newhouse-info-img-1.jpg')}}">
                 <span>商业区效果图</span>
             </li>
 
