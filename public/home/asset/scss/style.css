@@ -146,6 +146,80 @@ label {
     .paging-box > ul .active a {
       color: white; }
 
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 425px; }
+
+.slider-hidden {
+  overflow: hidden; }
+
+.has-touch {
+  height: 425px;
+  width: 3000px; }
+
+.slider__item {
+  width: 712px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .slider__item > img {
+    width: 100%;
+    height: 425px; }
+
+.slider__switch {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  padding: 10px 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border-radius: 1px;
+  background: #000;
+  opacity: 0.7;
+  transition: opacity .15s ease;
+  fill: #fff; }
+  .slider__switch span {
+    color: #fff;
+    display: block;
+    width: 32px;
+    height: 32px; }
+
+.slider__switch--prev {
+  display: none;
+  left: 10px; }
+
+.slider__switch--next {
+  display: none;
+  right: 10px; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+.preview {
+  text-align: center;
+  padding: 5px; }
+  .preview a {
+    display: inline-block;
+    margin: 0px 2px; }
+    .preview a img {
+      display: block;
+      width: 153px;
+      height: 120px; }
+  .preview .active {
+    border: 1px solid #ffc109; }
+
+.preview-ul {
+  position: relative;
+  padding-left: 32px;
+  text-align: left;
+  width: 2000px; }
+
 /***************雪花效果**************/
 .xuehua {
   position: absolute;
@@ -1266,23 +1340,26 @@ label {
         height: 120px; }
 
 .house-f2-btn-g {
+  overflow: hidden;
   width: 712px;
-  height: 120px; }
-  .house-f2-btn-g p {
-    margin: 0px;
-    position: absolute;
-    width: 30px;
-    height: 120px;
-    cursor: pointer; }
-    .house-f2-btn-g p:hover {
-      opacity: 0.7; }
+  display: inline-block; }
+
+.ul-house-btn {
+  margin: 0px;
+  position: absolute;
+  width: 30px;
+  height: 120px;
+  cursor: pointer;
+  top: 432px;
+  z-index: 5; }
+  .ul-house-btn:hover {
+    opacity: 1; }
 
 .ul-house-btn-prev {
-  top: 684px; }
+  left: 0px; }
 
 .ul-house-btn-next {
-  top: 684px;
-  left: 1049px; }
+  right: 0px; }
 
 .newhouse-info-des-right {
   width: 428px;

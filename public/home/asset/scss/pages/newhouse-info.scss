@@ -78,26 +78,29 @@
 }
 
 .house-f2-btn-g{
+  overflow: hidden;
   width: 712px;
+  display: inline-block;
+}
+
+.ul-house-btn{
+  margin: 0px;
+  position: absolute;
+  width: 30px;
   height: 120px;
-  p{
-    margin: 0px;
-    position: absolute;
-    width: 30px;
-    height: 120px;
-    cursor: pointer;
-    &:hover{
-      opacity: 0.7;
-    }
+  cursor: pointer;
+  top: 432px;
+  z-index: 5;
+  &:hover{
+    opacity: 1;
   }
 }
 .ul-house-btn-prev{
-  top: 684px;
+  left: 0px;
 }
 
 .ul-house-btn-next{
-  top:684px;
-  left: 1049px;
+  right: 0px;
 }
 
 .newhouse-info-des-right{
