@@ -20,7 +20,7 @@ class CreateMoviesTable extends Migration
             $table->string('describe',255);
             $table->unsignedTinyInteger('rate');
             $table->enum('released',[1,0])->nullable();
-            $table->timestamp('release_at');
+            $table->timestamp('release_at')->nullable();
             $table->timestamps();
         });
     }

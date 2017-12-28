@@ -21,6 +21,7 @@
 Route::group(['namespace' => 'Home'],function (){
     Route::get('/','HomeController@index')->name('/');
     Route::get('newhouse','NewHouseController@index')->name('newhouse');
+    Route::get('newhouse/info','NewHouseController@index_info')->name('newhouse.info');
     Route::get('oldhouse','OldHouseController@index')->name('oldhouse');
     Route::get('houseadv','HouseAdvController@index')->name('houseadv');
     Route::get('seehousegroup','SeeHouseGroupController@index')->name('seehousegroup');

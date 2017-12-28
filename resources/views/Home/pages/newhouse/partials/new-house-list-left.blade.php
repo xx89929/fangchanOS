@@ -12,7 +12,7 @@
     <div class="new-house-list-item">
         <div class="new-house-list-item-toppar clearfix">
             <div class="new-house-list-item-toppar-img pull-left">
-                <a href="#"><img src="{{url('home/images/new-house-list-item-img-1.jpg')}}"></a>
+                <a href="{{route('newhouse.info')}}"><img src="{{url('home/images/new-house-list-item-img-1.jpg')}}"></a>
             </div>
             <div class="new-house-list-item-toppar-des pull-left">
                 <div class="new-house-list-item-toppar-row new-house-list-toppar-title clearfix">

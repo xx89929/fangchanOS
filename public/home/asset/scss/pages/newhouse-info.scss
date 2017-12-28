@@ -1,0 +1,459 @@
+.scroll_box{
+  position: relative;
+}
+
+.newhouse-info-head{
+  padding:20px 0px;
+  background-color: #fafafa;
+}
+
+.newhouse-info-tit{
+  h2{
+    cursor: pointer;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  & > span{
+    border-radius: 5px;
+    padding:5px 10px;
+    color: white;
+    background-color: #2aabd2;
+    margin-left: 20px;
+  }
+  & > p{
+    span{
+      color: #999;
+    }
+  }
+}
+
+.newhouse-info-head-bnt-g{
+  button{
+    padding:10px 15px;
+    font-size: 16px;
+    border: 0px;
+    box-shadow: 0 0 5px #ddd;
+    &:first-child{
+      background-color: white;
+    }
+    &:last-child{
+      margin-left: 20px;
+      color: white;
+      background-color: $main-href-color;
+    }
+  }
+}
+
+.newhouse-info-box{
+  margin-top: 20px;
+  width: 100%;
+}
+.newhouse-info-img-left{
+  width: 712px;
+}
+
+.newhouse-info-img-f1{
+  @extend .newhouse-info-img-left;
+  height: 425px;
+  overflow: hidden;
+}
+
+.newhouse-info-img-f2{
+  margin-top: 10px;
+  height:120px;
+  width: 712px;
+  overflow: hidden;
+  &> ul {
+    margin-bottom: 0px;
+    margin-left: 37px;
+    width: 2000px;
+    li {
+      padding:0px 2px;
+      img{
+        width: 153px;
+        height: 120px;
+      }
+    }
+  }
+}
+
+.house-f2-btn-g{
+  width: 712px;
+  height: 120px;
+  p{
+    margin: 0px;
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+}
+.ul-house-btn-prev{
+  top: 684px;
+}
+
+.ul-house-btn-next{
+  top:684px;
+  left: 1049px;
+}
+
+.newhouse-info-des-right{
+  width: 428px;
+  margin-left: 30px;
+}
+
+.newhouse-info-des-t{
+  p{
+    line-height: 45px;
+    color: #999;
+    i{
+      padding:0px 10px;
+      font-weight: bold;
+      font-size: 60px;
+      color: $main-href-color;
+    }
+    em{
+      color: #333;
+    }
+  }
+}
+
+.newhouse-info-des-info{
+  & > ul > li{
+    margin-bottom: 20px;
+    span{
+      margin-right: 30px;
+      color: #999;
+    }
+    p{
+      display: inline-block;
+    }
+  }
+}
+
+.apply-newhouse-info-btn{
+  width: 100%;
+  button{
+    width: 100%;
+    padding:10px 0px;
+    font-size: 30px;
+    color: white;
+    background-color: $main-href-color;
+    border: 0px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    span{
+      vertical-align: middle;
+      font-size: 40px;
+      padding:0px 20px 0px 60px;
+    }
+    &:hover{
+      background-color: $main-href-active-color;
+    }
+  }
+}
+
+.newhouse-info-sales{
+  padding:25px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+.newhouse-info-sales-img{
+  img{
+    width: 70px;
+  }
+}
+
+.newhouse-info-sales-des{
+  margin-left: 20px;
+  em{
+    margin-right: 40px;
+  }
+  button{
+    color: $main-button-color;
+    background-color: inherit;
+    border: 1px solid $main-button-color;
+    &:hover{
+      color: white;
+      background-color: $main-href-active-color;
+    }
+  }
+}
+
+.newhouse-info-par-box{
+  margin-top: 40px;
+  width: 72%;
+}
+.newhouse-info-house-type-h{
+  padding:10px 0px;
+  border-bottom: 1px solid #ddd;
+  margin: 10px 0px;
+}
+
+.newhouse-info-house-type-tag{
+  & > ul {
+    .active{
+      color: $main-href-color;
+      border-bottom: 2px solid $main-href-color;
+    }
+    li {
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+.newhouse-info-house-type-box{
+  margin-top: 10px;
+  & > ul{
+    > li {
+      border-bottom: 1px dashed #ddd;
+      padding: 20px 0px;
+      &:last-child{
+        border-bottom: 0px;
+      }
+      &:hover{
+        background-color: #f9f9f9;
+      }
+    }
+  }
+}
+.newhouse-info-house-type-img pull-left{
+  img{
+    width: 177px;
+    height: 133px;
+  }
+}
+
+.newhouse-info-house-type-des{
+  width: 645px;
+  margin-left: 20px;
+  & > ul {
+    height: 54px;
+    li{
+      font-size: 16px;
+      padding:0px;
+      margin-right: 10px;
+      span{
+        color: #999;
+      }
+    }
+  }
+}
+
+.newhouse-info-house-type-des-row{
+  width: 100%;
+  margin-bottom: 20px;
+  h3{
+    margin-top: 0px;
+  }
+  p{
+    line-height: 26px;
+    margin: 0px;
+    color: $main-href-color;
+    i{
+      font-size: 30px;
+    }
+  }
+}
+.newhouse-info-house-type-classify{
+  span{
+    padding:5px 10px;
+    background-color: #ddd;
+    color: #999;
+  }
+}
+
+.newhouse-info-messages-ul{
+  & > ul {
+    li{
+      font-size: 15px;
+      padding:10px 0px;
+
+    }
+  }
+}
+.newhouse-info-messages-span{
+  width: 95px;
+  span{
+    color: #999;
+  }
+}
+
+.newhouse-info-pics-tag{
+  & > ul {
+    .active{
+      color: $main-href-color;
+    }
+    li{
+      font-size: 16px;
+      cursor: pointer;
+      &:hover{
+        color: $main-href-color;
+      }
+    }
+  }
+}
+
+.newhouse-info-pics-box{
+  width: 100%;
+  & > ul >li{
+    margin-top: 10px;
+    img{
+      width: 394px;
+      height: 295px;
+    }
+    span{
+      top: 0px;
+      position: absolute;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      padding:5px 10px;}
+  }
+}
+
+.fudong-house-head{
+  //display: none;
+  top:0px;
+  position: fixed;
+  z-index: 4;
+  background-color: white;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 2px solid $main-href-color;
+  ul {
+    margin-bottom: 0px;
+    .active{
+      background-color: $main-href-color !important;
+      a{
+        color: white !important;
+      }
+    }
+    li{
+      padding:10px 20px;
+      &:hover{
+        background-color: #f0f0f0;
+        a{
+          background-color: inherit !important;
+          color: $main-href-active-color;
+        }
+      }
+      a{
+        font-size: 16px;
+        color: inherit;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.fudong-house-right-fix{
+  display: none;
+  width: 16%;
+  position: fixed;
+  top: 81px;
+  right: 366px;
+  z-index: 4;
+}
+.tuijian-sales-box{
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tuijian-sales-title{
+  background-color: $main-href-color;
+  width: 100%;
+  padding:20px;
+  font-size: 22px;
+  color: white;
+}
+
+.tuijian-sales-cont{
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding:10px 20px;
+}
+.tuijian-sales-img{
+  img{
+    width: 80px;
+    height:80px;
+  }
+}
+
+
+.cirum-map{
+  width: 760px;
+  height: 400px;
+}
+.cirum-map-point-p{
+  position: relative;
+  p{
+    color: white;
+    position: absolute;
+    top: -223px;
+    left: 337px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: $main-href-color;
+  }
+}
+
+.cirum-search{
+  border: 1px solid #ddd;
+  width: 410px;
+}
+
+.cirum-search-tag{
+  & > ul {
+    margin-bottom: 0px;
+    .active{
+      background-color: white;
+      a{
+        color: $main-href-color !important;
+      }
+    }
+    li {
+      padding:10px 0px;
+      background-color: #f1f1f1;
+      a{
+        font-size: 16px;
+        color: inherit;
+        text-decoration: none;
+        &:hover{
+          color: $main-href-color;
+        }
+      }
+    }
+  }
+}
+
+.cirum-search-res{
+  padding:20px;
+  height: 356px;
+  overflow-y: auto;
+  & > div{
+    border: 1px !important;
+    & > div > ol {
+      & > li{
+        & > div{
+          padding:10px 0px !important;
+          & > div{
+            & > span:first-child{
+              font-size: 16px;
+              font-weight: bold !important;
+              color: inherit !important;
+            }
+            & > b{
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

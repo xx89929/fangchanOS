@@ -22,6 +22,16 @@ a {
 i {
   font-style: inherit; }
 
+em {
+  font-style: normal; }
+
+#allmap {
+  width: 100%;
+  height: 100%; }
+
+label {
+  max-width: inherit; }
+
 /*********Edit Can*************/
 .nav-warp {
   border-bottom: 1px solid #dddddd; }
@@ -1196,5 +1206,336 @@ i {
 
 .group-buy-list-time, .group-buy-list-person {
   color: #999; }
+
+.scroll_box {
+  position: relative; }
+
+.newhouse-info-head {
+  padding: 20px 0px;
+  background-color: #fafafa; }
+
+.newhouse-info-tit h2 {
+  cursor: pointer;
+  margin-top: 0px;
+  display: inline-block; }
+.newhouse-info-tit > span {
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #2aabd2;
+  margin-left: 20px; }
+.newhouse-info-tit > p span {
+  color: #999; }
+
+.newhouse-info-head-bnt-g button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 0px;
+  box-shadow: 0 0 5px #ddd; }
+  .newhouse-info-head-bnt-g button:first-child {
+    background-color: white; }
+  .newhouse-info-head-bnt-g button:last-child {
+    margin-left: 20px;
+    color: white;
+    background-color: #ffa200; }
+
+.newhouse-info-box {
+  margin-top: 20px;
+  width: 100%; }
+
+.newhouse-info-img-left, .newhouse-info-img-f1 {
+  width: 712px; }
+
+.newhouse-info-img-f1 {
+  height: 425px;
+  overflow: hidden; }
+
+.newhouse-info-img-f2 {
+  margin-top: 10px;
+  height: 120px;
+  width: 712px;
+  overflow: hidden; }
+  .newhouse-info-img-f2 > ul {
+    margin-bottom: 0px;
+    margin-left: 37px;
+    width: 2000px; }
+    .newhouse-info-img-f2 > ul li {
+      padding: 0px 2px; }
+      .newhouse-info-img-f2 > ul li img {
+        width: 153px;
+        height: 120px; }
+
+.house-f2-btn-g {
+  width: 712px;
+  height: 120px; }
+  .house-f2-btn-g p {
+    margin: 0px;
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    cursor: pointer; }
+    .house-f2-btn-g p:hover {
+      opacity: 0.7; }
+
+.ul-house-btn-prev {
+  top: 684px; }
+
+.ul-house-btn-next {
+  top: 684px;
+  left: 1049px; }
+
+.newhouse-info-des-right {
+  width: 428px;
+  margin-left: 30px; }
+
+.newhouse-info-des-t p {
+  line-height: 45px;
+  color: #999; }
+  .newhouse-info-des-t p i {
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffa200; }
+  .newhouse-info-des-t p em {
+    color: #333; }
+
+.newhouse-info-des-info > ul > li {
+  margin-bottom: 20px; }
+  .newhouse-info-des-info > ul > li span {
+    margin-right: 30px;
+    color: #999; }
+  .newhouse-info-des-info > ul > li p {
+    display: inline-block; }
+
+.apply-newhouse-info-btn {
+  width: 100%; }
+  .apply-newhouse-info-btn button {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 30px;
+    color: white;
+    background-color: #ffa200;
+    border: 0px;
+    border-radius: 5px;
+    transition: background-color 0.2s; }
+    .apply-newhouse-info-btn button span {
+      vertical-align: middle;
+      font-size: 40px;
+      padding: 0px 20px 0px 60px; }
+    .apply-newhouse-info-btn button:hover {
+      background-color: #ffc109; }
+
+.newhouse-info-sales {
+  padding: 25px 0px;
+  border-bottom: 1px solid #ddd; }
+
+.newhouse-info-sales-img img {
+  width: 70px; }
+
+.newhouse-info-sales-des {
+  margin-left: 20px; }
+  .newhouse-info-sales-des em {
+    margin-right: 40px; }
+  .newhouse-info-sales-des button {
+    color: #ffa200;
+    background-color: inherit;
+    border: 1px solid #ffa200; }
+    .newhouse-info-sales-des button:hover {
+      color: white;
+      background-color: #ffc109; }
+
+.newhouse-info-par-box {
+  margin-top: 40px;
+  width: 72%; }
+
+.newhouse-info-house-type-h {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
+  margin: 10px 0px; }
+
+.newhouse-info-house-type-tag > ul .active {
+  color: #ffa200;
+  border-bottom: 2px solid #ffa200; }
+.newhouse-info-house-type-tag > ul li {
+  font-size: 16px;
+  cursor: pointer; }
+
+.newhouse-info-house-type-box {
+  margin-top: 10px; }
+  .newhouse-info-house-type-box > ul > li {
+    border-bottom: 1px dashed #ddd;
+    padding: 20px 0px; }
+    .newhouse-info-house-type-box > ul > li:last-child {
+      border-bottom: 0px; }
+    .newhouse-info-house-type-box > ul > li:hover {
+      background-color: #f9f9f9; }
+
+.newhouse-info-house-type-img pull-left img {
+  width: 177px;
+  height: 133px; }
+
+.newhouse-info-house-type-des {
+  width: 645px;
+  margin-left: 20px; }
+  .newhouse-info-house-type-des > ul {
+    height: 54px; }
+    .newhouse-info-house-type-des > ul li {
+      font-size: 16px;
+      padding: 0px;
+      margin-right: 10px; }
+      .newhouse-info-house-type-des > ul li span {
+        color: #999; }
+
+.newhouse-info-house-type-des-row {
+  width: 100%;
+  margin-bottom: 20px; }
+  .newhouse-info-house-type-des-row h3 {
+    margin-top: 0px; }
+  .newhouse-info-house-type-des-row p {
+    line-height: 26px;
+    margin: 0px;
+    color: #ffa200; }
+    .newhouse-info-house-type-des-row p i {
+      font-size: 30px; }
+
+.newhouse-info-house-type-classify span {
+  padding: 5px 10px;
+  background-color: #ddd;
+  color: #999; }
+
+.newhouse-info-messages-ul > ul li {
+  font-size: 15px;
+  padding: 10px 0px; }
+
+.newhouse-info-messages-span {
+  width: 95px; }
+  .newhouse-info-messages-span span {
+    color: #999; }
+
+.newhouse-info-pics-tag > ul .active {
+  color: #ffa200; }
+.newhouse-info-pics-tag > ul li {
+  font-size: 16px;
+  cursor: pointer; }
+  .newhouse-info-pics-tag > ul li:hover {
+    color: #ffa200; }
+
+.newhouse-info-pics-box {
+  width: 100%; }
+  .newhouse-info-pics-box > ul > li {
+    margin-top: 10px; }
+    .newhouse-info-pics-box > ul > li img {
+      width: 394px;
+      height: 295px; }
+    .newhouse-info-pics-box > ul > li span {
+      top: 0px;
+      position: absolute;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px 10px; }
+
+.fudong-house-head {
+  top: 0px;
+  position: fixed;
+  z-index: 4;
+  background-color: white;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 2px solid #ffa200; }
+  .fudong-house-head ul {
+    margin-bottom: 0px; }
+    .fudong-house-head ul .active {
+      background-color: #ffa200 !important; }
+      .fudong-house-head ul .active a {
+        color: white !important; }
+    .fudong-house-head ul li {
+      padding: 10px 20px; }
+      .fudong-house-head ul li:hover {
+        background-color: #f0f0f0; }
+        .fudong-house-head ul li:hover a {
+          background-color: inherit !important;
+          color: #ffc109; }
+      .fudong-house-head ul li a {
+        font-size: 16px;
+        color: inherit; }
+        .fudong-house-head ul li a:hover {
+          text-decoration: none; }
+
+.fudong-house-right-fix {
+  display: none;
+  width: 16%;
+  position: fixed;
+  top: 81px;
+  right: 366px;
+  z-index: 4; }
+
+.tuijian-sales-box {
+  border-radius: 5px;
+  overflow: hidden; }
+
+.tuijian-sales-title {
+  background-color: #ffa200;
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  color: white; }
+
+.tuijian-sales-cont {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px; }
+
+.tuijian-sales-img img {
+  width: 80px;
+  height: 80px; }
+
+.cirum-map {
+  width: 760px;
+  height: 400px; }
+
+.cirum-map-point-p {
+  position: relative; }
+  .cirum-map-point-p p {
+    color: white;
+    position: absolute;
+    top: -223px;
+    left: 337px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #ffa200; }
+
+.cirum-search {
+  border: 1px solid #ddd;
+  width: 410px; }
+
+.cirum-search-tag > ul {
+  margin-bottom: 0px; }
+  .cirum-search-tag > ul .active {
+    background-color: white; }
+    .cirum-search-tag > ul .active a {
+      color: #ffa200 !important; }
+  .cirum-search-tag > ul li {
+    padding: 10px 0px;
+    background-color: #f1f1f1; }
+    .cirum-search-tag > ul li a {
+      font-size: 16px;
+      color: inherit;
+      text-decoration: none; }
+      .cirum-search-tag > ul li a:hover {
+        color: #ffa200; }
+
+.cirum-search-res {
+  padding: 20px;
+  height: 356px;
+  overflow-y: auto; }
+  .cirum-search-res > div {
+    border: 1px !important; }
+    .cirum-search-res > div > div > ol > li > div {
+      padding: 10px 0px !important; }
+      .cirum-search-res > div > div > ol > li > div > div > span:first-child {
+        font-size: 16px;
+        font-weight: bold !important;
+        color: inherit !important; }
+      .cirum-search-res > div > div > ol > li > div > div > b {
+        display: none !important; }
 
 /*# sourceMappingURL=style.css.map */

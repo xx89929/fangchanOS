@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAmB;EACjB,gBAAgB,EAAE,OAAO;;AAIzB,qBAAE;EACA,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,YAAY",
+"sources": ["newhouse-info.scss"],
+"names": [],
+"file": "newhouse-info.css"
+}

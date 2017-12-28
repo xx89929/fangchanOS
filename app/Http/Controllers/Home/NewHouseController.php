@@ -18,6 +18,10 @@ class NewHouseController extends Controller
         return view('Home.pages.newhouse.index',['page_title' => '新房楼盘']);
     }
 
+    public function index_info(){
+        return view('Home.pages.newhouse-info.index',['page_title' => '新房楼盘详情']);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
