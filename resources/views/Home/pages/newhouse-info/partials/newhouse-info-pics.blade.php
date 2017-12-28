@@ -32,7 +32,7 @@
             </li>
 
             <li class="col-xs-4">
-                <img class="img-responsive" src="{{url('home/images/new-house-info-pic-2.png')}}">
+                <img class="img-responsive" src="{{url('home/images/new-house-6.jpg')}}">
                 <span>商业区效果图</span>
             </li>
 
