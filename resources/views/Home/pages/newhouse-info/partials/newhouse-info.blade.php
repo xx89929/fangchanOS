@@ -8,7 +8,7 @@
 
     @include('Home.pages.newhouse-info.partials.newhouse-info-box')
 
-    <div class="scroll_box"  data-spy="scroll" data-target="#selector" data-offset="900">
+    <div class="scroll_box"  data-spy="scroll" data-target="#selector" data-offset="50">
 
         @include('Home.pages.newhouse-info.partials.newhouse-info-par-box')
 

@@ -9,7 +9,7 @@
         <div class="old-house-list-item">
             <div class="old-house-list-item-div clearfix">
                 <div class="old-house-list-item-img pull-left">
-                    <img src="{{url('home/images/old-house-img.jpg')}}">
+                    <a href="{{route('oldhouse.info')}}"><img src="{{url('home/images/old-house-img.jpg')}}"></a>
                 </div>
                 <div class="old-house-list-item-info pull-left">
                     <div class="old-house-item-tit">

@@ -336,7 +336,6 @@
       }
     }
     li{
-      padding:10px 20px;
       &:hover{
         background-color: #f0f0f0;
         a{
@@ -365,7 +364,6 @@
 }
 .tuijian-sales-box{
   border-radius: 5px;
-  overflow: hidden;
 }
 
 .tuijian-sales-title{
@@ -377,6 +375,7 @@
 }
 
 .tuijian-sales-cont{
+  position: relative;
   background-color: white;
   border-bottom: 1px solid #ddd;
   padding:10px 20px;
@@ -385,6 +384,20 @@
   img{
     width: 80px;
     height:80px;
+  }
+}
+
+.house-info-sales-weixin{
+  display: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  position: absolute;
+  left: -101px;
+  top: -1px;
+  & > img{
+    width: 100px;
+    height: 100px;
   }
 }
 

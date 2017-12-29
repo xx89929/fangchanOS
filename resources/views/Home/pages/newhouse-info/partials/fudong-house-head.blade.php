@@ -1,5 +1,5 @@
 <div class="fudong-house-head">
-    <div class="container fudong-house-head-box">
+    <div class="container fudong-house-head-box" >
         <ul class="nav list-inline">
             <li class="pull-left active"><a href="#huxing">户型图</a></li>
             <li class="pull-left"><a href="#jianjie">楼盘简介</a></li>
@@ -20,13 +20,25 @@
                 <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
             </div>
             <div class="uijian-sales-des pull-left">
-                <h4>销售人员：李XXXX</h4>
+                <h4>销售经理：李XXXX</h4>
                 <p>XX房产 销售经理</p>
             </div>
-
+            <div class="house-info-sales-weixin">
+                <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+            </div>
         </div>
     </div>
 </div>
+
+
+<script>
+    $('.tuijian-sales-cont').hover(function () {
+        $(this).find('div.house-info-sales-weixin').show();
+    },function () {
+        $(this).find('div.house-info-sales-weixin').hide();
+    })
+</script>
+
 
 <script>
     $(function () {
@@ -45,7 +57,7 @@
             }
         })
 
-        $('div.fudong-house-head ul > li').click(function () {
+        $('div.fudong-house-head > ul > li').click(function () {
             $(this).addClass('active').siblings().removeClass('active');
         })
     })

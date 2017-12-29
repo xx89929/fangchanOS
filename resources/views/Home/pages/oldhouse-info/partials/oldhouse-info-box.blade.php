@@ -51,35 +51,46 @@
 
 
     <div class="newhouse-info-des-right pull-left">
-        <div class="newhouse-info-des-t">
-            <p>均价<i>58000</i><em>元/平米</em></p>
+        <div class="oldhouse-info-des-t oldhouse-info-des-row">
+            <span><i>660</i><dd>万</dd></span>
+            <em>55318元/平米</em>
         </div>
-        <div class="newhouse-info-des-info">
+        <div class="oldhouse-info-des-param-a1 oldhouse-info-des-row">
             <ul class="list-unstyled">
-                <li><span>楼盘别名</span><p>凯旋天玺名庭</p></li>
-                <li><span>物业用途</span><p>商铺 , 住宅</p></li>
-                <li><span>开盘时间</span><p>暂无数据</p></li>
-                <li><span>交房时间</span><p>2020年04月</p></li>
-                <li><span>预售证号</span><p>深房许字（2017）龙岗019号</p></li>
-                <li><span>项目地址</span><p>[ 龙岗 布吉 ] 布吉长龙地铁站C2出口金鹏大酒店对面</p></li>
+                <li class="clearfix"><div class="oldhouse-info-param-span"><span>小区名称</span></div><em>嘉宾花园</em></li>
+                <li class="clearfix"><div class="oldhouse-info-param-span"><span>看房时间</span></div><em>随时可预约</em><a href="#">预约看房</a> </li>
+                <li class="clearfix"><div class="oldhouse-info-param-span"><span>对口学校</span></div><em>深圳市滨河小学</em></li>
+                <li class="clearfix"><div class="oldhouse-info-param-span"><span>所在区域</span></div><em>深圳市滨河小学</em></li>
+                <li class="clearfix"><div class="oldhouse-info-param-span"><span>对口学校</span></div><em>[罗湖人民南]近1号线(罗宝线)大剧院站</em></li>
             </ul>
-            <div class="apply-newhouse-info-btn ">
-                <button class="text-left"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>0898-6676640</button>
+        </div>
+        <div class="oldhouse-info-des-param-a2 oldhouse-info-des-row clearfix">
+            <span class="pull-left col-xs-4 text-center">
+                <h4>3室2厅</h4>
+                <p>低层/28层</p>
+            </span>
+            <span class="pull-left col-xs-4 text-center">
+                <h4>119.31平米</h4>
+                <p>精装修</p>
+            </span>
+            <span class="pull-left col-xs-4 text-center">
+                <h4>东北</h4>
+                <p>1992年建</p>
+            </span>
+        </div>
+        <div class="oldhouse-info-des-param-a3 oldhouse-info-des-row clearfix">
+            <div class="oldhouse-info-des-param-a3-sales-img pull-left">
+                <img class="img-circle" src="{{url('home/images/sales_pic/hy.jpg')}}">
             </div>
-            <div class="newhouse-info-sales clearfix">
-                <div class="newhouse-info-sales-img pull-left">
-                    <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
-                </div>
-                <div class="newhouse-info-sales-des pull-left">
-                    <h4>销售人员：李XXXX</h4>
-                    <em>XX房产 销售经理</em>
-                    <button>预约看房</button>
-                    <button>电话咨询</button>
-                </div>
+            <div class="oldhouse-info-des-param-a3-sales-info pull-left">
+                <h3>姓名XX<button>在线联系</button></h3>
+                <p>我及时更新房源信息，保证信息真实</p>
+                <em>133 3755 0507</em>
             </div>
         </div>
     </div>
 </div>
+
 
 
 

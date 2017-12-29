@@ -18,6 +18,10 @@ class OldHouseController extends Controller
         return view('Home.pages.oldhouse.index',['page_title' => '二手房']);
     }
 
+
+    public function info(){
+        return view('Home.pages.oldhouse-info.index',['page_title' => '二手房详情']);
+    }
     /**
      * Show the form for creating a new resource.
      *
