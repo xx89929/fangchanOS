@@ -13,4 +13,5 @@
     <div class="container">
         @include('Home.pages.newhouse.partials.house-page-ranking')
     </div>
+    @include('Home.layout.partials.pop-1')
 @endsection

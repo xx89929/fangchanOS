@@ -319,11 +319,19 @@
   }
 }
 
+
+.fudong-house-head-f1{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+}
+
+
 .fudong-house-head{
-  //display: none;
+  display: none;
   top:0px;
   position: fixed;
-  z-index: 4;
+  z-index: 9;
   background-color: white;
   border-right: 1px solid #f0f0f0;
   border-bottom: 2px solid $main-href-color;
@@ -355,12 +363,18 @@
 }
 
 .fudong-house-right-fix{
+  width: 304px;
+  position: relative;
+  top: 0px;
+  left: 894px;
+
+}
+.fudong-house-right-fudong{
   display: none;
-  width: 16%;
   position: fixed;
-  top: 81px;
-  right: 366px;
+  top:80px;
   z-index: 4;
+  width: 277px;
 }
 .tuijian-sales-box{
   border-radius: 5px;
@@ -368,7 +382,7 @@
 
 .tuijian-sales-title{
   background-color: $main-href-color;
-  width: 100%;
+  width: 277px;
   padding:20px;
   font-size: 22px;
   color: white;

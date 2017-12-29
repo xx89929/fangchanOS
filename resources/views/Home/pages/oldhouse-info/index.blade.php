@@ -1,7 +1,7 @@
 @extends('Home.layout.base')
 @section('content')
     @include('Home.pages.oldhouse-info.partials.oldhouse-info-head')
-    <div class="container">
+    <div class="container" style="position: relative;">
         @include('Home.pages.oldhouse-info.partials.fudong-house-head')
 
         @include('Home.pages.oldhouse-info.partials.crumbs-nav')

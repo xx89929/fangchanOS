@@ -220,6 +220,33 @@ svg:not(:root) {
   text-align: left;
   width: 2000px; }
 
+.pop-content-1 {
+  border-radius: 0px; }
+
+.pop-hearder-1 {
+  background-color: #ffa200; }
+  .pop-hearder-1 h4 {
+    color: white; }
+  .pop-hearder-1 p {
+    margin-top: 10px;
+    color: white; }
+
+.pop-1-input-group {
+  width: 100%; }
+  .pop-1-input-group input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%; }
+
+.pop-1-input input {
+  margin-bottom: 10px; }
+
+.pop-1-submit input {
+  border: 0px;
+  color: white;
+  background-color: #ffc109; }
+
 /***************雪花效果**************/
 .xuehua {
   position: absolute;
@@ -1511,10 +1538,16 @@ svg:not(:root) {
       background-color: rgba(0, 0, 0, 0.5);
       padding: 5px 10px; }
 
+.fudong-house-head-f1 {
+  display: block;
+  margin: 0 auto;
+  position: absolute; }
+
 .fudong-house-head {
+  display: none;
   top: 0px;
   position: fixed;
-  z-index: 4;
+  z-index: 9;
   background-color: white;
   border-right: 1px solid #f0f0f0;
   border-bottom: 2px solid #ffa200; }
@@ -1536,19 +1569,24 @@ svg:not(:root) {
         text-decoration: none; }
 
 .fudong-house-right-fix {
+  width: 304px;
+  position: relative;
+  top: 0px;
+  left: 894px; }
+
+.fudong-house-right-fudong {
   display: none;
-  width: 16%;
   position: fixed;
-  top: 81px;
-  right: 366px;
-  z-index: 4; }
+  top: 80px;
+  z-index: 4;
+  width: 277px; }
 
 .tuijian-sales-box {
   border-radius: 5px; }
 
 .tuijian-sales-title {
   background-color: #ffa200;
-  width: 100%;
+  width: 277px;
   padding: 20px;
   font-size: 22px;
   color: white; }

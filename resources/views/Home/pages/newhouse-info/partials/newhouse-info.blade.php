@@ -1,6 +1,6 @@
 @include('Home.pages.newhouse-info.partials.newhouse-info-head')
 
-<div class="container">
+<div class="container" style="position: relative;">
 
     @include('Home.pages.newhouse-info.partials.fudong-house-head')
 

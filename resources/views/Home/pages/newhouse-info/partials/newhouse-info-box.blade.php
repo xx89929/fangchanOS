@@ -73,8 +73,8 @@
                 <div class="newhouse-info-sales-des pull-left">
                     <h4>销售人员：李XXXX</h4>
                     <em>XX房产 销售经理</em>
-                    <button>预约看房</button>
-                    <button>电话咨询</button>
+                    <button data-toggle="modal" data-target="#pop-1" id="see-house">预约看房</button>
+                    <button data-toggle="modal" data-target="#pop-1" id="apply-budget">电话咨询</button>
                 </div>
             </div>
         </div>
@@ -126,4 +126,12 @@
     });
 
     changeActivePreview(0)
+</script>
+
+<script>
+    $('#see-house').click(function () {
+        var tit = $(this).text();
+        var text = '为方便您接收看房的通知信息，请输入手机号码';
+        pop_1(tit,text);
+    });
 </script>

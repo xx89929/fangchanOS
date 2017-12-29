@@ -10,60 +10,63 @@
 </div>
 
 <div class="fudong-house-right-fix">
-    <div class="tuijian-sales-box">
-        <div class="tuijian-sales-title text-center">
-            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-            0898-6676640
-        </div>
-        <div class="tuijian-sales-cont clearfix">
-            <div class="tuijian-sales-img pull-left">
-                <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+    <div class="fudong-house-right-fudong">
+        <div class="tuijian-sales-box">
+            <div class="tuijian-sales-title text-center">
+                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                0898-6676640
             </div>
-            <div class="uijian-sales-des pull-left">
-                <h4>销售顾问：李XXXX</h4>
-                <p>XX房产 销售经理</p>
+            <div class="tuijian-sales-cont clearfix">
+                <div class="tuijian-sales-img pull-left">
+                    <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+                </div>
+                <div class="uijian-sales-des pull-left">
+                    <h4>销售顾问：李XXXX</h4>
+                    <p>XX房产 销售经理</p>
+                </div>
+                <div class="house-info-sales-weixin">
+                    <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+                </div>
             </div>
-            <div class="house-info-sales-weixin">
-                <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+            <div class="tuijian-sales-cont clearfix">
+                <div class="tuijian-sales-img pull-left">
+                    <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+                </div>
+                <div class="uijian-sales-des pull-left">
+                    <h4>信贷顾问：李XXXX</h4>
+                    <p>XX房产 销售经理</p>
+                </div>
+                <div class="house-info-sales-weixin">
+                    <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+                </div>
             </div>
-        </div>
-        <div class="tuijian-sales-cont clearfix">
-            <div class="tuijian-sales-img pull-left">
-                <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+            <div class="tuijian-sales-cont clearfix">
+                <div class="tuijian-sales-img pull-left">
+                    <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+                </div>
+                <div class="uijian-sales-des pull-left">
+                    <h4>装修顾问：李XXXX</h4>
+                    <p>XX房产 销售经理</p>
+                </div>
+                <div class="house-info-sales-weixin">
+                    <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+                </div>
             </div>
-            <div class="uijian-sales-des pull-left">
-                <h4>信贷顾问：李XXXX</h4>
-                <p>XX房产 销售经理</p>
-            </div>
-            <div class="house-info-sales-weixin">
-                <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
-            </div>
-        </div>
-        <div class="tuijian-sales-cont clearfix">
-            <div class="tuijian-sales-img pull-left">
-                <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
-            </div>
-            <div class="uijian-sales-des pull-left">
-                <h4>装修顾问：李XXXX</h4>
-                <p>XX房产 销售经理</p>
-            </div>
-            <div class="house-info-sales-weixin">
-                <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
-            </div>
-        </div>
-        <div class="tuijian-sales-cont clearfix">
-            <div class="tuijian-sales-img pull-left">
-                <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
-            </div>
-            <div class="uijian-sales-des pull-left">
-                <h4>风水顾问：李XXXX</h4>
-                <p>XX房产 销售经理</p>
-            </div>
-            <div class="house-info-sales-weixin">
-                <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+            <div class="tuijian-sales-cont clearfix">
+                <div class="tuijian-sales-img pull-left">
+                    <img class="img-circle" src="{{url('home/images/sales_pic/xn3.jpg')}}">
+                </div>
+                <div class="uijian-sales-des pull-left">
+                    <h4>风水顾问：李XXXX</h4>
+                    <p>XX房产 销售经理</p>
+                </div>
+                <div class="house-info-sales-weixin">
+                    <img src="{{url('home/images/sales_pic/hyCode.jpg')}}">
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 
@@ -86,9 +89,9 @@
                 $('.fudong-house-head').hide();
             }
             if(getCurrentHight > 820 && getCurrentHight < 2300){
-                $('.fudong-house-right-fix').show();
+                $('.fudong-house-right-fudong').show();
             }else{
-                $('.fudong-house-right-fix').hide();
+                $('.fudong-house-right-fudong').hide();
             }
         })
 

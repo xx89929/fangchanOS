@@ -1,0 +1,39 @@
+.pop-content-1{
+  border-radius: 0px;
+}
+
+.pop-hearder-1{
+  background-color: $main-href-color;
+  h4{
+    color: white;
+  }
+  p{
+    margin-top: 10px;
+    color: white;
+  }
+}
+
+.pop-1-input-group{
+  width: 100%;
+  input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding:10px;
+    width: 100%;
+  }
+}
+
+.pop-1-input{
+  input{
+    margin-bottom: 10px;
+  }
+}
+
+.pop-1-submit{
+  input{
+    border: 0px;
+    color: white;
+    background-color: $main-href-active-color;
+  }
+
+}
