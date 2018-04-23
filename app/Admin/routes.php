@@ -12,10 +12,42 @@ Route::group([
     $router->resource('users',UserController::class);
     $router->get('/', 'HomeController@index');
 
-    /******movies*******/
-    $router->resource('movies','MoviesController');
-//    $router->match(['get','post'],'movies','MoviesController@index')->name('movies.show');
-//    $router->match(['get','post'],'movies/create','MoviesController@create')->name('movies.create');
-//    $router->post('movies/{id}/edit','MoviesController@edit')->name('movies.edit');
-//    $router->post('movies/{id}/destroy','MoviesController@destroy')->name('movies.destroy');
+    /******account*******/
+    $router->resource('account','AccountController');
+    $router->resource('account_type','AccountTypeController');
+
+    /******wuye*********/
+    $router->resource('wuye','WuYeTypeController');
+
+    /******new_house*******/
+    $router->resource('newhouse','NewHouseController');
+
+    /******new_house*******/
+    $router->resource('oldhouse','OldHouseController');
+
+
+    /******area*******/
+    $router->resource('area','AreaController');
+
+    /******sell_status*******/
+    $router->resource('sell_status','HouseSellStatusController');
+
+    /******trait_tag*******/
+    $router->resource('trait_tag','HouseTraitTagController');
+
+    /******group_buy*******/
+    $router->resource('group_buy','GroupBuyController');
+
+    /******seeHouseGroup*******/
+    $router->resource('seeHouseGroup','SeeHouseGroupController');
+
+    /*****Article**********/
+    $router->resource('article','ArticleController');
+    $router->resource('article_cla','ArticleClassifyController');
+
+    /******api_area*******/
+    Route::get('/api/area/parent','AreaController@getAreaParent');
+
 });
+
+

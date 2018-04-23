@@ -13,6 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::group(['middleware' => 'api','namespace' => 'Api'],function(){
+    Route::post('mapcoord','BaiduMapController@getMapCoord')->name('map.getcoord');
+    Route::post('getHouseList','BaiduMapController@getHouseList')->name('map.getHouseList');
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

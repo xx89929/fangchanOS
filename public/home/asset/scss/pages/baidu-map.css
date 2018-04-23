@@ -1,0 +1,120 @@
+#qz-map {
+  height: 660px;
+  width: 80%;
+  float: left; }
+
+.house-map-nav-box {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd; }
+  .house-map-nav-box .btn-default:hover {
+    color: white;
+    background-color: #FFA200; }
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 100%;
+  border: 0px;
+  background-color: white; }
+
+.navbar-nav > li {
+  margin: 8px 5px;
+  padding: 6px 0px;
+  border: 1px solid #ddd; }
+  .navbar-nav > li a {
+    padding: 0px 15px; }
+
+.navbar-nav > .open a {
+  background-color: inherit !important; }
+
+.dropdown-menu li {
+  border-bottom: 1px solid #f0f0f0; }
+
+.dropdown-menu {
+  margin: 0px;
+  padding: 0px;
+  min-width: 100%;
+  text-align: center;
+  border-radius: 0px; }
+  .dropdown-menu li a {
+    padding: 10px; }
+  .dropdown-menu li:hover {
+    background-color: #e3e3e3; }
+
+.form-control {
+  border-radius: 0px; }
+
+.btn {
+  border-left: 0px;
+  border-radius: 0px; }
+
+.house-list {
+  width: 20%;
+  border-top: 0px; }
+
+.house-list-tag {
+  position: relative;
+  z-index: 10;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd; }
+  .house-list-tag .active {
+    background-color: white; }
+  .house-list-tag > ul {
+    margin-bottom: 0px; }
+    .house-list-tag > ul li {
+      margin: 0px;
+      padding: 0px;
+      border-right: 1px solid #ddd; }
+      .house-list-tag > ul li:last-child {
+        border-right: 0px; }
+
+.map-tags-f1 {
+  padding: 10px 20px; }
+  .map-tags-f1 a {
+    text-decoration: none;
+    color: inherit; }
+
+.house-list-con {
+  position: relative;
+  top: -1px;
+  border: 1px solid #ddd; }
+  .house-list-con ul {
+    margin-bottom: 0px; }
+    .house-list-con ul li {
+      border-bottom: 1px solid #ddd; }
+      .house-list-con ul li:last-child {
+        border-bottom: 0px; }
+      .house-list-con ul li:hover {
+        background-color: #f3f3f3; }
+      .house-list-con ul li a {
+        color: inherit;
+        width: 100%;
+        display: inline-block;
+        padding: 10px; }
+        .house-list-con ul li a img {
+          width: 135px;
+          height: 102px; }
+
+.house-list-con-cr {
+  margin-left: 10px;
+  width: 59%; }
+
+.house-list-con-row {
+  margin-bottom: 5px; }
+  .house-list-con-row:last-child {
+    margin-bottom: 0px; }
+  .house-list-con-row .house-name {
+    font-size: 16px;
+    margin-bottom: 0px; }
+  .house-list-con-row span {
+    color: white;
+    padding: 2px 5px; }
+  .house-list-con-row i {
+    color: #FFA200; }
+    .house-list-con-row i label {
+      font-size: 20px; }
+  .house-list-con-row em {
+    font-size: 12px;
+    color: #999; }
+
+/*# sourceMappingURL=baidu-map.css.map */

@@ -27,4 +27,7 @@ Route::group(['namespace' => 'Home'],function (){
     Route::get('houseadv','HouseAdvController@index')->name('houseadv');
     Route::get('seehousegroup','SeeHouseGroupController@index')->name('seehousegroup');
     Route::get('groupbuy','GroupBuyController@index')->name('groupbuy');
+    Route::post('apiUpImg','CommonController@ApiEditImg');
+
+    Route::get('map','HouseMapController@index')->name('house.map');
 });
